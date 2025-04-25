@@ -21,10 +21,10 @@
         var logo = document.querySelector('.navbar-brand img')
         if (window.pageYOffset > sticky) {
             header_navbar.classList.add("sticky");
-            logo.src = 'assets/images/logo/moveo_icon_color.svg';
+            logo.src = 'assets/images/logo/Mushroom_icon_color.svg';
         } else {
             header_navbar.classList.remove("sticky");
-            logo.src = 'assets/images/logo/moveo_icon_white.svg';
+            logo.src = 'assets/images/logo/Mushroom_icon_white.svg';
         }
 
         // show or hide the back-top-top button
